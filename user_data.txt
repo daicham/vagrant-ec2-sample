@@ -1,0 +1,4 @@
+#!/bin/bash
+sed -i -e 's/^#Port.*$/Port 443/' /etc/ssh/sshd_config
+service sshd reload
+
